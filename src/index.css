@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* typewriter css  */
+span.Typewriter__wrapper {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+span.Typewriter__cursor {
+    font-size: 40px;
+    font-weight: 600;
+}
