@@ -6,7 +6,11 @@ const About = () => {
     <Container>
       <div className="my-36">
         <Tittle tittle="About Me" tittleDesc="Know Me More"></Tittle>
-        <div className="flex items-center justify-center">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="flex items-center justify-center"
+        >
           <div className="flex w-7/12 gap-6">
             <div className="space-y-4">
               <p className="text-xl">

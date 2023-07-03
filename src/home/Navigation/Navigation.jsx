@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Navigation = () => {
   return (
@@ -39,25 +39,35 @@ const Navigation = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link className="font-bold text-xl">Home</Link>
+            <Link to="" className="font-bold text-xl">
+              Home
+            </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl">About</Link>
+            <Link to="" className="font-bold text-xl">
+              About
+            </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl">Skills</Link>
+            <Link to="" className="font-bold text-xl">
+              Skills
+            </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl">Portfolio</Link>
+            <Link to="" className="font-bold text-xl">
+              Portfolio
+            </Link>
           </li>
           <li>
-            <Link className="font-bold text-xl">Contact</Link>
+            <Link to="" className="font-bold text-xl">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <p className="font-bold text-xl flex items-center justify-center gap-2">
-          <FaPhone /> +880 161979-2124
+        <p className=" font-bold text-xl flex items-center justify-center gap-2">
+          <MdEmail /> albehestione@gmail.com
         </p>
       </div>
     </div>

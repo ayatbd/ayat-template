@@ -14,3 +14,21 @@ span.Typewriter__cursor {
     font-size: 40px;
     font-weight: 600;
 }
+
+/* progress bar css  */
+
+element.style {
+    height: 12px;
+}
+
+.bg-img {
+    background-image: url(../src/assets/images/summer-camp-school-988b3.web.app_.png);
+    background-position: top;
+    width: 100%;
+    background-size: cover;
+    transition: ease-in-out 3s;
+}
+
+.bg-img:hover {
+    background-position: bottom;
+}

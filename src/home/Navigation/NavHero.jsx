@@ -4,6 +4,15 @@ import { BsArrowDownCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import "../../index.css";
 const NavHero = () => {
+  const handleDownload = () => {
+    const url = "/public/Document.docx.pdf";
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = "resume.pdf";
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+    anchor.click();
+  };
   return (
     <div className="flex justify-between items-center">
       <div
@@ -33,7 +42,9 @@ const NavHero = () => {
         </p>
         <div className="flex gap-1">
           <button className="text-xl transition-all delay-100 hover:text-black hover:border-black hover:bg-white border-spacing-1 flex flex-col justify-center items-center px-6 py-3 bg-black text-white">
-            Download My Resume
+            <a onClick={handleDownload} download>
+              Download My Resume
+            </a>
           </button>
           <button className="px-6 py-2 flex gap-2 justify-center items-center rounded-none underline hover:no-underline">
             Contact Me <BsArrowDownCircle className="text-black" size="20" />
