@@ -37,7 +37,7 @@ const Email = () => {
 
       <input
         type="submit"
-        className="w-full btn px-4 py-2 mt-4 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border border-transparent rounded-lg hover:bg-blue-600"
+        className="w-full btn mt-3 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 border border-transparent rounded-lg hover:bg-blue-600"
         value="Submit"
       />
     </form>

@@ -32,3 +32,11 @@ element.style {
 .bg-img:hover {
     background-position: bottom;
 }
+
+/* button style css  */
+
+*,
+::before,
+::after {
+    box-sizing: unset;
+}

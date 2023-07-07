@@ -4,15 +4,15 @@ import CountUp from "react-countup";
 const About = () => {
   return (
     <Container>
-      <div className="my-36">
+      <div className="my-28" id="about">
         <Tittle tittle="About Me" tittleDesc="Know Me More"></Tittle>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="flex items-center justify-center"
+          className="flex flex-col md:flex-row items-center justify-center"
         >
-          <div className="flex w-7/12 gap-6">
-            <div className="space-y-4">
+          <div className="flex md:flex-row flex-col md:w-7/12 gap-6">
+            <div className="space-y-4 text-start">
               <p className="text-xl">
                 Name: <span className="font-bold">Ayatullah Behesti</span>
               </p>
@@ -37,14 +37,14 @@ const About = () => {
                 Email: <span className="font-bold">albehestione@gmail.com</span>
               </p>
               <p className="text-xl">
-                Studing:{" "}
+                Studing:
                 <span className="font-bold">
                   Cumilla Victoria College, <br /> BA final year
                 </span>
               </p>
             </div>
           </div>
-          <div className="w-1/2 flex justify-center items-center gap-5">
+          <div className="md:w-1/2 justify-center items-center gap-5">
             <div className="py-8 px-14 flex flex-col items-center justify-center border rounded-lg border-black">
               <p>
                 <span className="text-6xl font-bold bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text">
@@ -57,7 +57,7 @@ const About = () => {
                 />
               </p>
               <h2 className="text-3xl font-bold">
-                Completed <br /> Projects
+                -Completed <br /> Projects
               </h2>
             </div>
             <div className="py-8 px-14 flex flex-col items-center justify-center border rounded-lg border-black">
@@ -73,7 +73,7 @@ const About = () => {
               </p>
 
               <h2 className="text-3xl font-bold">
-                Problem <br /> Solved
+                -Problem <br /> Solved
               </h2>
             </div>
             <div></div>

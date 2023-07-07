@@ -1,15 +1,24 @@
 [{
         "id": 1,
-        "img": "img1.jpg",
-        "technologies": "html",
-        "project_name": "name",
-        "project_description": "project desc"
+        "img": "https://i.ibb.co/ggtxXw8/summer-camp-school-988b3-web-app.png",
+        "technologies": "Vite(React), Vercel, Framer-motion, Swiper, Sweetalert, React hook form, Firebase, ExpressJS, MongoDB, NodeJS, react, simple, typewriter",
+        "project_name": "Summer Camp",
+        "project_description": "A full stack based language learning website",
+        "github_link": "",
+        "live_link": ""
     },
     {
         "id": 2,
-        "img": "img1.jpg",
-        "technologies": "html",
-        "project_name": "name",
+        "img": "https://i.ibb.co/86L0W4d/assignment-elevent-project-web-app-home.png",
+        "technologies": "Javascript (ES6), Vanilla CSS, Tailwind",
+        "project_name": "Recipe Hero",
+        "project_description": "A React based website dedicated to showcasing the best chefs and their recipes from around the world."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/hKTrwvS/chef-hero-c54ac-web-app.png",
+        "technologies": "ReactJS, React hook form, Firebase, ExpressJS, MongoDB, NodeJS.",
+        "project_name": "Tot Zone",
         "project_description": "project desc"
     }
 ]

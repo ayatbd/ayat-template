@@ -1,0 +1,40 @@
+.border-t-none {
+    border-top: none;
+}
+
+.border-b-none {
+    border-bottom: none;
+}
+
+.border-round {
+    border-radius: 0 0 5px 5px;
+}
+
+.border-round-2 {
+    border-radius: 5px 5px 0 0;
+}
+
+.hover-class div img {
+    transition: ease-in-out 3s;
+    transform: translateY(0);
+}
+
+.hover-class:hover div img {
+    transform: translateY(-75%);
+}
+
+.hover-class .box-shadow {
+    transition: all ease .2s;
+}
+
+.hover-class:hover .box-shadow {
+    box-shadow: 0px 10px 8px rgb(75 85 99);
+}
+
+.hover-class .button-class {
+    transition: all ease-in-out 1s;
+}
+
+.hover-class:hover .button-class {
+    position: relative;
+}

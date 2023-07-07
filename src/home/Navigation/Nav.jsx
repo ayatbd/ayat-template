@@ -4,13 +4,11 @@ import Navigation from "./Navigation";
 
 const Nav = () => {
   return (
-    <div className="bg-[#f5df4e] h-[100vh]">
-      <Container>
-        <div>
-          <Navigation></Navigation>
-          <NavHero></NavHero>
-        </div>
-      </Container>
+    <div className="bg-[#f5df4e] h-[95vh]">
+      <div>
+        <Navigation></Navigation>
+        <NavHero></NavHero>
+      </div>
     </div>
   );
 };

@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import About from "../About/About";
-import Nav from "../Navigation/Nav";
+// import Nav from "../Navigation/Nav";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Skills from "../Skills/Skills";
 import Footer from "../Footer/Footer";
 import Contact from "../Contact/Contact";
 import Portfolios from "../Portfolios/Portfolios";
+import Nav from "../Navigation/Nav";
 
 const Home = () => {
   useEffect(() => {
