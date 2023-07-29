@@ -20,7 +20,7 @@
 }
 
 .hover-class:hover div img {
-    transform: translateY(-75%);
+    transform: translateY(calc(-100% + 15rem));
 }
 
 .hover-class .box-shadow {
@@ -37,4 +37,12 @@
 
 .hover-class:hover .button-class {
     position: relative;
+}
+
+.hover-class .custom-cls-1 {
+    transition: all .5s;
+}
+
+.hover-class:hover .custom-cls-1 {
+    transform: translateY(0);
 }

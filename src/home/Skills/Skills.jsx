@@ -12,14 +12,14 @@ const Skills = () => {
         ></Tittle>
         <div>
           <div className="flex md:flex-row flex-col justify-start gap-10 md:gap-44">
-            <div className="md:w-1/2">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="md:w-1/2"
+            >
               <h3 className="text-center text-xl font-bold">Fronend:</h3>
-              <div
-                data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                className="space-y-5"
-              >
+              <div className="space-y-5">
                 <div>
                   <div>
                     <p className="font-bold">HTML 5</p>
@@ -77,7 +77,7 @@ const Skills = () => {
                     <p className="font-bold">Firebase</p>
                   </div>
                   <div className="flex items-center justify-between">
-                    <p className="">75%</p>
+                    <p className="">85%</p>
                     <progress
                       className="progress progress-info w-[90%] h-2"
                       value="75"
@@ -113,14 +113,14 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-1/2">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="md:w-1/2"
+            >
               <h3 className="text-center text-xl font-bold">Backend:</h3>
-              <div
-                data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine"
-                className="space-y-5"
-              >
+              <div className="space-y-5">
                 <div>
                   <div>
                     <p className="font-bold">Node.js</p>

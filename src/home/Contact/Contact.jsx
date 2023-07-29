@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-[#f8f9fa] py-28">
       <Container>
-        <div className="flex flex-col justify-center">
+        <div className="">
           <Tittle tittle="Contact Me" tittleDesc="Let's get in touch"></Tittle>
-          <div className="flex md:flex-row flex-col md:justify-start gap-36">
+          <div className="flex flex-col-reverse md:flex-row flex-col md:justify-start gap-36">
             <div
               data-aos="fade-right"
               data-aos-offset="200"
@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="space-y-5">
                 <div className="flex items-center justify-start gap-6">
                   <PiPhoneFill
-                    className="bg-white rounded-full p-3 border border-spacing-1 text-red-500 border-red-500"
+                    className="bg-white rounded-full p-2 border border-spacing-1 text-red-500 border-red-500"
                     size="24"
                   />
                   <div>
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center justify-start gap-6">
                   <HiOutlineMail
-                    className="bg-white rounded-full p-3 border border-spacing-1 text-red-500 border-red-500"
+                    className="bg-white rounded-full p-2 border border-spacing-1 text-red-500 border-red-500"
                     size="24"
                   />
                   <div>
@@ -43,7 +43,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center justify-start gap-6">
                   <MdLocationOn
-                    className="bg-white rounded-full p-3 border border-spacing-1 text-red-500 border-red-500"
+                    className="bg-white rounded-full p-2 border border-spacing-1 text-red-500 border-red-500"
                     size="24"
                   />
                   <div>
@@ -55,19 +55,19 @@ const Contact = () => {
               <div className="flex items-center justify-start gap-4 mt-9">
                 <a href="https://www.linkedin.com/in/ayatullah-behesti-b63b601a3/">
                   <AiFillLinkedin
-                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-3 border border-spacing-1 text-white border-red-500"
+                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-2 border border-spacing-1 text-white border-red-500"
                     size="24"
                   />
                 </a>
                 <a href="https://www.facebook.com/profile.php?id=100023765114556">
                   <FaFacebook
-                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-3 border border-spacing-1 text-white border-red-500"
+                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-2 border border-spacing-1 text-white border-red-500"
                     size="24"
                   />
                 </a>
                 <a href="https://github.com/ayatbd">
                   <FaGithub
-                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-3 border border-spacing-1 text-white border-red-500"
+                    className="bg-red-500 hover:bg-red-700 cursor-pointer rounded-full p-2 border border-spacing-1 text-white border-red-500"
                     size="24"
                   />
                 </a>

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img1 from "../../assets/images/IMG20220917163233.jpg";
+import img1 from "../../assets/images/img2.jpg";
 import { BsArrowDownCircle } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
 import "../../index.css";
@@ -67,7 +67,10 @@ const NavHero = () => {
                   >
                     Contact Me
                   </Link>
-                  <BsArrowDownCircle className="text-black" size="20" />
+                  <BsArrowDownCircle
+                    className="text-black animate-bounce"
+                    size="20"
+                  />
                 </button>
               </div>
             </div>
@@ -76,12 +79,9 @@ const NavHero = () => {
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-duration="900"
-              className="bg-white rounded-full p-4 mt-10 md:mt-0"
+              className="bg-white md:w-[400px] md:h-[400px] rounded-full p-4 mt-10 md:mt-0"
             >
-              <img
-                className="md:w-[400px] md:h-[400px] rounded-full"
-                src={img1}
-              />
+              <img className="w-full h-full rounded-full" src={img1} />
             </div>
           </div>
         </div>

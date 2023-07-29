@@ -4,21 +4,118 @@
         "technologies": "Vite(React), Vercel, Framer-motion, Swiper, Sweetalert, React hook form, Firebase, ExpressJS, MongoDB, NodeJS, react, simple, typewriter",
         "project_name": "Summer Camp",
         "project_description": "A full stack based language learning website",
-        "github_link": "",
-        "live_link": ""
+        "github_link": "https://github.com/ayatbd/summer-camp-client",
+        "live_link": "https://summer-camp-school-988b3.web.app/",
+        "type": "Full Stack"
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/86L0W4d/assignment-elevent-project-web-app-home.png",
-        "technologies": "Javascript (ES6), Vanilla CSS, Tailwind",
+        "technologies": "Javascript (ES6), Vanilla CSS, Tailwind, daisyUI, sweetalert",
         "project_name": "Recipe Hero",
-        "project_description": "A React based website dedicated to showcasing the best chefs and their recipes from around the world."
+        "project_description": "A React based website dedicated to showcasing the best chefs and their recipes from around the world.",
+        "github_link": "https://github.com/ayatbd/recipe-hero-client",
+        "live_link": "https://chef-hero-c54ac.web.app/",
+        "type": "Full Stack"
     },
     {
         "id": 3,
         "img": "https://i.ibb.co/hKTrwvS/chef-hero-c54ac-web-app.png",
         "technologies": "ReactJS, React hook form, Firebase, ExpressJS, MongoDB, NodeJS.",
         "project_name": "Tot Zone",
-        "project_description": "project desc"
+        "project_description": "project desc",
+        "github_link": "https://github.com/ayatbd/tot-zone-client",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "Full Stack"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/YXVPbfN/localhost-5174.png",
+        "technologies": "ReactJS, tailwind, Vanilla CSS, DaisyUI.",
+        "project_name": "Career Hub",
+        "project_description": "A react.js base website",
+        "github_link": "https://github.com/ayatbd/career-hub",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/Wvj0HV8/knowledge-cafe.png",
+        "technologies": "ReactJS, tailwind, Vanilla CSS, DaisyUI, react-toastify.",
+        "project_name": "Knowledge Cafe",
+        "project_description": "A responsive react.js based website",
+        "github_link": "https://github.com/ayatbd/knowledge-cafe",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/KjFwJhm/quize-hero.png",
+        "technologies": "DOM, ES6, tailwind, Vanilla CSS, DaisyUI.",
+        "project_name": "Quiz Hero",
+        "project_description": "Responsive ES6 debugging website",
+        "github_link": "https://github.com/ayatbd/quize-hero",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/qgZBGZG/ai-universe-hub.png",
+        "technologies": "DOM, ES6, tailwind, Vanilla CSS.",
+        "project_name": "AI Universe Hub",
+        "project_description": "Responsive ES6 and API based website",
+        "github_link": "https://github.com/ayatbd/ai-universe-hub",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/khk3G4G/geometry.png",
+        "technologies": "DOM, tailwind, Vanilla CSS.",
+        "project_name": "Geometry Genius",
+        "project_description": "A responsive Javascript DOM based website",
+        "github_link": "https://github.com/ayatbd/geometry-genius",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/Ht3k7J0/legal-house.png",
+        "technologies": "Html, css, Bootstrap",
+        "project_name": "Legal House",
+        "project_description": "Full responsive HTML, CSS and Bootstrap based website",
+        "github_link": "https://github.com/ayatbd/legal-solution",
+        "live_link": "https://assignment-elevent-project.web.app/",
+        "type": "React"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/m673wBS/new-year.png",
+        "technologies": "Html, css, Bootstrap",
+        "project_name": "G3 Architects",
+        "project_description": "Full responsive HTML, CSS and Bootstrap based website",
+        "github_link": "https://github.com/ayatbd/g3-architects",
+        "live_link": "https://ayatbd.github.io/g3-architects/",
+        "type": "React"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/H4HVrbH/imaginative.png",
+        "technologies": "Html, css",
+        "project_name": "Imaginative",
+        "project_description": "Responsive Html and CSS based website",
+        "github_link": "https://github.com/ayatbd/new-year",
+        "live_link": "https://ayatbd.github.io/imaginative/",
+        "type": "React"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/D4QKYrs/new-year-portfolio.png",
+        "technologies": "Html, css",
+        "project_name": "New Year Portfolio",
+        "project_description": "Responsive Html and CSS based website",
+        "github_link": "https://github.com/ayatbd/new-year-portfolio",
+        "live_link": "https://ayatbd.github.io/new-year-portfolio/",
+        "type": "React"
     }
 ]
