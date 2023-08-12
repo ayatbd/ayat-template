@@ -142,7 +142,7 @@ const Navigation = () => {
                     duration={700}
                     className="font-bold text-xl"
                   >
-                    Portfolio
+                    Portfolios
                   </Link>
                 </li>
                 <li>

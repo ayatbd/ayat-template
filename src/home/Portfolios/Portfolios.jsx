@@ -3,6 +3,7 @@ import Tittle from "./../../components/Tittle";
 import "./portfolio.css";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import Container from "../../components/Container";
+import LazyLoad from "react-lazy-load";
 
 const Portfolios = () => {
   const [project, setProject] = useState([]);
@@ -19,7 +20,7 @@ const Portfolios = () => {
   };
 
   const filteredProject = activeCategory
-    ? project.filter((project) => project.category === activeCategory)
+    ? project.filter((p) => p.type === activeCategory)
     : project;
 
   return (
@@ -43,43 +44,43 @@ const Portfolios = () => {
             </button>
             <button
               className={`py-3 px-4 rounded ${
-                activeCategory === "Math Toy"
+                activeCategory === "Full Stack"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-800"
               }`}
-              onClick={() => filterProjectByCategory("Math Toy")}
+              onClick={() => filterProjectByCategory("Full Stack")}
             >
               Full Stack (MERN)
             </button>
             <button
               className={`py-3 px-4 rounded ${
-                activeCategory === "Engineering Toy"
+                activeCategory === "React"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-800"
               }`}
-              onClick={() => filterProjectByCategory("Engineering Toy")}
+              onClick={() => filterProjectByCategory("React")}
             >
               Frontend (React)
             </button>
             <button
               className={`py-3 px-4 rounded ${
-                activeCategory === "Science Toy"
+                activeCategory === "ES6"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-800"
               }`}
-              onClick={() => filterProjectByCategory("Science Toy")}
+              onClick={() => filterProjectByCategory("ES6")}
             >
-              Dom
+              ES6 & DOM
             </button>
             <button
               className={`py-3 px-4 rounded ${
-                activeCategory === "Science Toy"
+                activeCategory === "Design"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-800"
               }`}
-              onClick={() => filterProjectByCategory("Science Toy")}
+              onClick={() => filterProjectByCategory("Design")}
             >
-              Web Design
+              Basic Design
             </button>
           </div>
           <div
@@ -94,11 +95,13 @@ const Portfolios = () => {
                 border transition-transform duration-[3000ms] ease-linear transform
                 translate-y-0 border-spacing-1 border-red-500 rounded-lg"
                 >
-                  <img
-                    className="translate-y-0 object-cover object-center delay-3000"
-                    src={p.img}
-                    alt={p.project_name}
-                  />
+                  <LazyLoad height={762}>
+                    <img
+                      className="translate-y-0 object-cover object-center delay-3000"
+                      src={p.img}
+                      alt={p.project_name}
+                    />
+                  </LazyLoad>
                 </div>
                 <div className="relative overflow-hidden">
                   <div className="text-center h-[130px] border-round p-5 border border-red-500 rounded-lg">

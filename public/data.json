@@ -23,7 +23,7 @@
         "img": "https://i.ibb.co/hKTrwvS/chef-hero-c54ac-web-app.png",
         "technologies": "ReactJS, React hook form, Firebase, ExpressJS, MongoDB, NodeJS.",
         "project_name": "Tot Zone",
-        "project_description": "project desc",
+        "project_description": "A React based website dedicated to showcasing the best chefs and their recipes from around the world.",
         "github_link": "https://github.com/ayatbd/tot-zone-client",
         "live_link": "https://assignment-elevent-project.web.app/",
         "type": "Full Stack"
@@ -35,7 +35,7 @@
         "project_name": "Career Hub",
         "project_description": "A react.js base website",
         "github_link": "https://github.com/ayatbd/career-hub",
-        "live_link": "https://assignment-elevent-project.web.app/",
+        "live_link": "https://sparkly-malasada-03dab6.netlify.app/",
         "type": "React"
     },
     {
@@ -45,7 +45,7 @@
         "project_name": "Knowledge Cafe",
         "project_description": "A responsive react.js based website",
         "github_link": "https://github.com/ayatbd/knowledge-cafe",
-        "live_link": "https://assignment-elevent-project.web.app/",
+        "live_link": "https://playful-beignet-06f7c7.netlify.app",
         "type": "React"
     },
     {
@@ -55,8 +55,8 @@
         "project_name": "Quiz Hero",
         "project_description": "Responsive ES6 debugging website",
         "github_link": "https://github.com/ayatbd/quize-hero",
-        "live_link": "https://assignment-elevent-project.web.app/",
-        "type": "React"
+        "live_link": "https://rainbow-custard-20df7f.netlify.app",
+        "type": "ES6"
     },
     {
         "id": 7,
@@ -65,8 +65,8 @@
         "project_name": "AI Universe Hub",
         "project_description": "Responsive ES6 and API based website",
         "github_link": "https://github.com/ayatbd/ai-universe-hub",
-        "live_link": "https://assignment-elevent-project.web.app/",
-        "type": "React"
+        "live_link": "https://dashing-mousse-1b7b42.netlify.app",
+        "type": "ES6"
     },
     {
         "id": 8,
@@ -75,8 +75,8 @@
         "project_name": "Geometry Genius",
         "project_description": "A responsive Javascript DOM based website",
         "github_link": "https://github.com/ayatbd/geometry-genius",
-        "live_link": "https://assignment-elevent-project.web.app/",
-        "type": "React"
+        "live_link": "hhttps://steady-zabaione-b89ce1.netlify.app",
+        "type": "ES6"
     },
     {
         "id": 9,
@@ -85,8 +85,8 @@
         "project_name": "Legal House",
         "project_description": "Full responsive HTML, CSS and Bootstrap based website",
         "github_link": "https://github.com/ayatbd/legal-solution",
-        "live_link": "https://assignment-elevent-project.web.app/",
-        "type": "React"
+        "live_link": "https://beautiful-paprenjak-e12b0f.netlify.app/",
+        "type": "Design"
     },
     {
         "id": 10,
@@ -96,7 +96,7 @@
         "project_description": "Full responsive HTML, CSS and Bootstrap based website",
         "github_link": "https://github.com/ayatbd/g3-architects",
         "live_link": "https://ayatbd.github.io/g3-architects/",
-        "type": "React"
+        "type": "Design"
     },
     {
         "id": 11,
@@ -106,7 +106,7 @@
         "project_description": "Responsive Html and CSS based website",
         "github_link": "https://github.com/ayatbd/new-year",
         "live_link": "https://ayatbd.github.io/imaginative/",
-        "type": "React"
+        "type": "Design"
     },
     {
         "id": 12,
@@ -116,6 +116,6 @@
         "project_description": "Responsive Html and CSS based website",
         "github_link": "https://github.com/ayatbd/new-year-portfolio",
         "live_link": "https://ayatbd.github.io/new-year-portfolio/",
-        "type": "React"
+        "type": "Design"
     }
 ]

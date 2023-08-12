@@ -79,7 +79,7 @@ const NavHero = () => {
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-duration="900"
-              className="bg-white md:w-[400px] md:h-[400px] rounded-full p-4 mt-10 md:mt-0"
+              className="bg-white mb-8 md:mb-0 w-[300px] md:w-[400px] md:h-[400px] h-[300px] rounded-full p-4 mt-10 md:mt-0"
             >
               <img className="w-full h-full rounded-full" src={img1} />
             </div>

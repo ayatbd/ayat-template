@@ -44,7 +44,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="md:w-1/2 justify-center items-center gap-5">
+          <div className="md:w-1/2 space-y-4">
             <div className="py-8 px-14 flex flex-col items-center justify-center border rounded-lg border-black">
               <p>
                 <span className="text-6xl font-bold bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text">
@@ -56,9 +56,7 @@ const About = () => {
                   duration={5}
                 />
               </p>
-              <h2 className="text-3xl font-bold">
-                -Completed <br /> Projects
-              </h2>
+              <h2 className="text-3xl font-bold">-Completed Projects</h2>
             </div>
             <div className="py-8 px-14 flex flex-col items-center justify-center border rounded-lg border-black">
               <p>
@@ -72,9 +70,7 @@ const About = () => {
                 />
               </p>
 
-              <h2 className="text-3xl font-bold">
-                -Problem <br /> Solved
-              </h2>
+              <h2 className="text-3xl font-bold">-Problem Solved</h2>
             </div>
             <div></div>
           </div>
