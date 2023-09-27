@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../../components/Container";
 
 const Footer = () => {
@@ -7,7 +6,7 @@ const Footer = () => {
       <Container>
         <footer className="footer footer-center p-4  text-white">
           <div>
-            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+            <p>Copyright © 2023 - All right reserved by Ayatullah Behesti</p>
           </div>
         </footer>
       </Container>

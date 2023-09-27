@@ -5,13 +5,13 @@
 
 /* typewriter css  */
 span.Typewriter__wrapper {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     color: #000;
 }
 
 span.Typewriter__cursor {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -39,4 +39,29 @@ element.style {
 ::before,
 ::after {
     box-sizing: unset;
+}
+
+/* using media for navhero typescript text  */
+
+@media (min-width: 768px) {
+    span.Typewriter__wrapper {
+        font-size: 40px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    span.Typewriter__cursor {
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+/*======= header css ======= */
+
+.sticky_header {
+    width: 100%;
+    line-height: 80px;
+    z-index: 99999;
+    box-shadow: 3px 3px -8px 3px #ddd;
+    background-color: #ddd;
 }

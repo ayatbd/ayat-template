@@ -4,12 +4,12 @@ import CountUp from "react-countup";
 const About = () => {
   return (
     <Container>
-      <div className="my-28" id="about">
+      <div className="py-28" id="about">
         <Tittle tittle="About Me" tittleDesc="Know Me More"></Tittle>
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="flex flex-col md:flex-row items-center justify-center"
+          className="flex flex-col gap-y-20 md:flex-row items-center justify-center"
         >
           <div className="flex md:flex-row flex-col md:w-7/12 gap-6">
             <div className="space-y-4 text-start">
@@ -52,6 +52,7 @@ const About = () => {
                 </span>
                 <CountUp
                   className="text-6xl font-bold bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text"
+                  start={0}
                   end={27}
                   duration={5}
                 />
@@ -65,6 +66,7 @@ const About = () => {
                 </span>
                 <CountUp
                   className="text-6xl font-bold bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text"
+                  start={0}
                   end={150}
                   duration={5}
                 />

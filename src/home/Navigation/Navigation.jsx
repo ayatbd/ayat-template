@@ -2,13 +2,32 @@ import { MdEmail } from "react-icons/md";
 import { Link } from "react-scroll";
 import Container from "./../../components/Container";
 import "../../index.css";
+import { useRef } from "react";
+import { useEffect } from "react";
 
 const Navigation = () => {
+  const headerRef = useRef(null);
+
+  const handleStickyHeader = () => {
+    if (
+      document.body.scrollTop > 80 ||
+      document.documentElement.scrollTop > 80
+    ) {
+      headerRef.current.classList.add("sticky_header");
+    } else {
+      headerRef.current.classList.remove("sticky_header");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleStickyHeader);
+    return () => window.removeEventListener("scroll", handleStickyHeader);
+  }, []);
   return (
-    <div className="bg-[#f5df4e] fixed top-0 w-full z-50">
+    <div className="bg-[#f5df4e] fixed top-0 left-0 right-0" ref={headerRef}>
       <Container>
         <div className="">
-          <div className="navbar">
+          <div className="navbar w-auto">
             <div className="navbar-start">
               <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">

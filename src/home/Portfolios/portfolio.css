@@ -46,3 +46,5 @@
 .hover-class:hover .custom-cls-1 {
     transform: translateY(0);
 }
+
+@media screen {}

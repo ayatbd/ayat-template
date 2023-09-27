@@ -31,7 +31,7 @@ const Portfolios = () => {
       ></Tittle>
       <Container>
         <div className="mx-auto p-4 overflow-hidden">
-          <div className="flex justify-center space-x-1 mb-4">
+          <div className="flex gap-y-1 flex-col md:flex-row justify-center space-x-1 mb-4">
             <button
               className={`py-3 px-4 rounded ${
                 activeCategory === null
@@ -86,7 +86,7 @@ const Portfolios = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="div-shadow box-shadow shadow-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 mt-7"
+            className="div-shadow box-shadow shadow-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 mt-7"
           >
             {filteredProject.map((p) => (
               <div key={p._id} className="hover-class">

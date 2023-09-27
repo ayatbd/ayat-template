@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 import Container from "../../components/Container";
 const NavHero = () => {
   const handleDownload = () => {
-    const url = "/public/Document.docx.pdf";
+    const url = "/Document.docx.pdf";
     const anchor = document.createElement("a");
     anchor.href = url;
     anchor.download = "resume.pdf";
@@ -16,9 +16,9 @@ const NavHero = () => {
     anchor.click();
   };
   return (
-    <div className="bg-[#f5df4e]">
+    <div className="bg-[#f5df4e] overflow-hidden">
       <Container>
-        <div className="mt-[80px]">
+        <div className="md:mt-[80px] mt-[10px]">
           <div
             id="home"
             className="flex flex-col md:flex-row justify-between items-center"
@@ -30,8 +30,8 @@ const NavHero = () => {
               data-aos-duration="900"
               className="flex flex-col py-4 items-start justify-center md:w-1/2 h-full space-y-6"
             >
-              <h3 className="md:text-4xl">HI, I'M</h3>
-              <h1 className="md:text-6xl text-2xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+              <h3 className="md:text-4xl text-xl">HI, I'M</h3>
+              <h1 className="md:text-6xl text-3xl font-bold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
                 AYATULLAH BEHESTI
               </h1>
               <Typewriter
@@ -53,11 +53,11 @@ const NavHero = () => {
               </p>
               <div className="flex gap-1">
                 <button className="md:text-xl transition-all delay-100 hover:text-black hover:border-black hover:bg-white border-spacing-1 flex flex-col justify-center items-center px-6 py-3 bg-black text-white">
-                  <a onClick={handleDownload} download>
+                  <Link onClick={handleDownload} download>
                     Download My Resume
-                  </a>
+                  </Link>
                 </button>
-                <button className="px-6 py-2 flex gap-2 justify-center items-center rounded-none underline hover:no-underline">
+                <button className="px-6 hidden py-2 md:flex gap-2 justify-center items-center rounded-none underline hover:no-underline">
                   <Link
                     to="contact"
                     spy={true}
@@ -79,7 +79,7 @@ const NavHero = () => {
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-duration="900"
-              className="bg-white mb-8 md:mb-0 w-[300px] md:w-[400px] md:h-[400px] h-[300px] rounded-full p-4 mt-10 md:mt-0"
+              className="bg-gradient-to-r from-gray-700 via-gray-900 to-black mb-8 md:mb-0 w-[300px] md:w-[400px] md:h-[400px] h-[300px] rounded-full p-4 mt-10 md:mt-0"
             >
               <img className="w-full h-full rounded-full" src={img1} />
             </div>

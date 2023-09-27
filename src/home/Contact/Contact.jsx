@@ -77,6 +77,7 @@ const Contact = () => {
               data-aos="fade-left"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
+              className="overflow-hidden md:w-1/2"
             >
               <Email></Email>
             </div>

@@ -74,6 +74,19 @@ const Skills = () => {
                 </div>
                 <div>
                   <div>
+                    <p className="font-bold">Next.js</p>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <p className="">50%</p>
+                    <progress
+                      className="progress progress-info w-[90%] h-2"
+                      value="85"
+                      max="100"
+                    ></progress>
+                  </div>
+                </div>
+                <div>
+                  <div>
                     <p className="font-bold">Firebase</p>
                   </div>
                   <div className="flex items-center justify-between">
