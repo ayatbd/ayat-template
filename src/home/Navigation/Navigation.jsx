@@ -24,7 +24,7 @@ const Navigation = () => {
     return () => window.removeEventListener("scroll", handleStickyHeader);
   }, []);
   return (
-    <div className="bg-[#f5df4e] fixed top-0 left-0 right-0" ref={headerRef}>
+    <div className="md:fixed top-0 left-0 right-0" ref={headerRef}>
       <Container>
         <div className="">
           <div className="navbar w-auto">

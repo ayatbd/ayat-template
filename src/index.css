@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+/*======= header css ======= */
+
+.nav-ancor {}
+
+.sticky_header {
+    width: 100%;
+    line-height: 80px;
+    z-index: 99999;
+    box-shadow: 0 1px 3px -2px black;
+    background-color: #fff;
+}
+
+.nav-bg {
+    background-image: url(../src/assets/images/common-banner.png.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-shadow {
+    box-shadow: 0 8px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-shadow {
+    /* box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+    transition: all .2s ease;
+}
+
+.bottom-shadow:hover {
+    box-shadow: 0 8px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
 
 /* typewriter css  */
 span.Typewriter__wrapper {
@@ -54,14 +86,4 @@ element.style {
         font-size: 40px;
         font-weight: 600;
     }
-}
-
-/*======= header css ======= */
-
-.sticky_header {
-    width: 100%;
-    line-height: 80px;
-    z-index: 99999;
-    box-shadow: 3px 3px -8px 3px #ddd;
-    background-color: #ddd;
 }

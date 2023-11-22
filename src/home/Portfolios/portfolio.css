@@ -47,4 +47,17 @@
     transform: translateY(0);
 }
 
+.react-tabs__tab--selected {
+    background: #fff;
+    border-color: #3B82F6 !important;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.space-x-1> :not([hidden])~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+    margin-left: 0 !important;
+}
+
 @media screen {}

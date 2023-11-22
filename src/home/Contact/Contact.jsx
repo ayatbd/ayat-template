@@ -9,11 +9,11 @@ import Email from "./Email";
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-[#f8f9fa] py-28">
+    <div id="contact" className="py-28">
       <Container>
         <div className="">
           <Tittle tittle="Contact Me" tittleDesc="Let's get in touch"></Tittle>
-          <div className="flex flex-col-reverse md:flex-row flex-col md:justify-start gap-36">
+          <div className="flex flex-col-reverse md:flex-row md:justify-start gap-36">
             <div
               data-aos="fade-right"
               data-aos-offset="200"
