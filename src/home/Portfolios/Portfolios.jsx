@@ -40,7 +40,8 @@ const Portfolios = () => {
             <TabList className="flex bg-white gap-y-1 flex-col md:flex-row justify-center space-x-1 py-2">
               {categories.map((category, index) => (
                 <Tab
-                  className="cursor-pointer text-gray-600 py-1 md:py-4 px-6 block hover:text-blue-500 focus:outline-none md:border-b-2 font-medium border-white"
+                  data-aos="fade-left"
+                  className="cursor-pointer text-gray-600 py-1 md:py-4 px-6 block active:text-[#14C196] transform ease-linear delay-75 hover:text-[#14C196] focus:outline-none md:border-b-2 font-medium border-white"
                   key={index}
                 >
                   {category}
@@ -49,13 +50,9 @@ const Portfolios = () => {
             </TabList>
             {categories.map((category, index) => (
               <TabPanel key={index}>
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  className="div-shadow box-shadow shadow-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 mt-7"
-                >
+                <div className="div-shadow box-shadow shadow-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 mt-7">
                   {filteredProject.map((p) => (
-                    <div key={p._id} className="hover-class">
+                    <div data-aos="fade-up" key={p._id} className="hover-class">
                       <div
                         className="h-60 border-b-none border-round-2 overflow-hidden
                 border transition-transform duration-[3000ms] ease-linear transform
@@ -71,7 +68,7 @@ const Portfolios = () => {
                       </div>
                       <div className="relative overflow-hidden">
                         <div className="text-center h-[130px] border-round p-5 border border-red-500 rounded-lg">
-                          <h3 className="md:text-2xl text-xl font-bold bg-gradient-to-r from-indigo-500 to-pink-600 text-transparent bg-clip-text">
+                          <h3 className="md:text-2xl text-xl font-bold text-pink-600 bg-clip-text">
                             {p.project_name}
                           </h3>
                           <p className="md:text-xl">{p.project_description}</p>
@@ -82,11 +79,11 @@ const Portfolios = () => {
                             {p.technologies}
                           </p>
                           <div className="flex justify-center items-center gap-4">
-                            <button className="text-red-500 flex justify-center items-center gap-2 border border-red-500 px-5 py-1 rounded-lg hover:bg-gray-950">
+                            <button className="text-accent flex justify-center items-center gap-2 border border-accent px-5 py-1 rounded-lg hover:bg-gray-950">
                               <AiFillGithub size="20" />
                               <a href={p.github_link}>github</a>
                             </button>
-                            <button className="text-red-500 flex justify-center items-center gap-2 border border-red-500 px-5 py-1 rounded-lg hover:bg-gray-950">
+                            <button className="text-accent flex justify-center items-center gap-2 border border-accent px-5 py-1 rounded-lg hover:bg-gray-950">
                               <AiFillEye size="20" />
                               <a href={p.live_link}>live site</a>
                             </button>

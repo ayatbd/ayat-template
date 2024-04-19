@@ -5,7 +5,7 @@
         "project_name": "Lingo Stars",
         "project_description": "A full stack based language learning website",
         "github_link": "https://github.com/ayatbd/summer-camp-client",
-        "live_link": "https://summer-camp-school-988b3.web.app/",
+        "live_link": "https://global-tongues.web.app/",
         "type": "Full Stack"
     },
     {
@@ -15,7 +15,7 @@
         "project_name": "Tot Zone",
         "project_description": "A responsive React-based website to show the best toys for a toy slling website.",
         "github_link": "https://github.com/ayatbd/tot-zone-client",
-        "live_link": "https://assignment-elevent-project.web.app/",
+        "live_link": "https://tot-zone-client.vercel.app/",
         "type": "Full Stack"
     },
     {

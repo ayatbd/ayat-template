@@ -44,7 +44,7 @@ const Email = () => {
 
       <input
         type="submit"
-        className="py-3 cursor-pointer text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:to-pink-700 border border-transparent rounded-lg hover:from-indigo-600"
+        className="btn cursor-pointer transition-all ease-linear delay-75 text-white bg-[#14C196] border-transparent rounded-lg hover:bg-pink-600"
         value="Submit"
       />
     </form>

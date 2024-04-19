@@ -26,7 +26,7 @@ const Navigation = () => {
   return (
     <div className="md:fixed top-0 left-0 right-0" ref={headerRef}>
       <Container>
-        <div className="">
+        <div>
           <div className="navbar w-auto">
             <div className="navbar-start">
               <div className="dropdown">
@@ -112,10 +112,15 @@ const Navigation = () => {
                   </li>
                 </ul>
               </div>
-              <Link className="text-2xl font-bold">AYAT</Link>
+              <Link
+                data-aos="fade-right"
+                className="text-2xl text-gray-800 font-sans font-bold"
+              >
+                AYAT
+              </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-horizontal px-1">
+            <div data-aos="fade-down" className="navbar-center hidden lg:flex">
+              <ul className="menu menu-horizontal">
                 <li>
                   <Link
                     to="home"
@@ -178,9 +183,9 @@ const Navigation = () => {
                 </li>
               </ul>
             </div>
-            <div className="navbar-end">
-              <p className=" font-bold md:text-xl flex items-center justify-center gap-2">
-                <MdEmail /> albehestione@gmail.com
+            <div data-aos="fade-left" className="navbar-end">
+              <p className=" font-bold md:text-[20px] text-gray-800 flex items-center justify-center gap-2">
+                <MdEmail color="#14C196" /> albehestione@gmail.com
               </p>
             </div>
           </div>
