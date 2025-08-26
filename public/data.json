@@ -7,9 +7,18 @@
         "github_link": "https://github.com/ayatbd/summer-camp-client",
         "live_link": "https://global-tongues.web.app/",
         "type": "Full Stack"
+    }, {
+        "id": 2,
+        "img": "https://i.ibb.co/ggtxXw8/summer-camp-school-988b3-web-app.png",
+        "technologies": "Vite(React), Vercel, Framer-motion, Swiper, Sweetalert, React hook form, Firebase, ExpressJS, MongoDB, NodeJS, react, simple, typewriter",
+        "project_name": "wedding Wonder",
+        "project_description": "A full stack based Matrimony website",
+        "github_link": "https://github.com/ayatbd/summer-camp-client",
+        "live_link": "https://global-tongues.web.app/",
+        "type": "Full Stack"
     },
     {
-        "id": 2,
+        "id": 3,
         "img": "https://i.ibb.co/QFCsB4c/tot-zone.png",
         "technologies": "ReactJS, React hook form, Firebase, ExpressJS, MongoDB, NodeJS, sweetalert",
         "project_name": "Tot Zone",
@@ -19,7 +28,7 @@
         "type": "Full Stack"
     },
     {
-        "id": 3,
+        "id": 4,
         "img": "https://i.ibb.co/1sG382k/localhost-5173-1.png",
         "technologies": "Javascript (ES6), Vanilla CSS, Tailwind, daisyUI, sweetalert",
         "project_name": "Chef Hero",
@@ -29,7 +38,7 @@
         "type": "Full Stack"
     },
     {
-        "id": 4,
+        "id": 5,
         "img": "https://i.ibb.co/YXVPbfN/localhost-5174.png",
         "technologies": "ReactJS, tailwind, Vanilla CSS, DaisyUI.",
         "project_name": "Career Hub",
@@ -39,7 +48,7 @@
         "type": "React"
     },
     {
-        "id": 5,
+        "id": 6,
         "img": "https://i.ibb.co/Wvj0HV8/knowledge-cafe.png",
         "technologies": "ReactJS, tailwind, Vanilla CSS, DaisyUI, react-toastify.",
         "project_name": "Knowledge Cafe",
@@ -49,7 +58,7 @@
         "type": "React"
     },
     {
-        "id": 6,
+        "id": 7,
         "img": "https://i.ibb.co/KjFwJhm/quize-hero.png",
         "technologies": "DOM, ES6, tailwind, Vanilla CSS, DaisyUI.",
         "project_name": "Quiz Hero",
@@ -59,7 +68,7 @@
         "type": "ES6"
     },
     {
-        "id": 7,
+        "id": 8,
         "img": "https://i.ibb.co/qgZBGZG/ai-universe-hub.png",
         "technologies": "DOM, ES6, tailwind, Vanilla CSS.",
         "project_name": "AI Universe Hub",
@@ -69,7 +78,7 @@
         "type": "ES6"
     },
     {
-        "id": 8,
+        "id": 9,
         "img": "https://i.ibb.co/khk3G4G/geometry.png",
         "technologies": "DOM, tailwind, Vanilla CSS.",
         "project_name": "Geometry Genius",
@@ -79,7 +88,7 @@
         "type": "ES6"
     },
     {
-        "id": 9,
+        "id": 10,
         "img": "https://i.ibb.co/Ht3k7J0/legal-house.png",
         "technologies": "Html, css, Bootstrap",
         "project_name": "Legal House",
@@ -89,7 +98,7 @@
         "type": "Design"
     },
     {
-        "id": 10,
+        "id": 11,
         "img": "https://i.ibb.co/m673wBS/new-year.png",
         "technologies": "Html, css, Bootstrap",
         "project_name": "G3 Architects",
@@ -99,7 +108,7 @@
         "type": "Design"
     },
     {
-        "id": 11,
+        "id": 12,
         "img": "https://i.ibb.co/H4HVrbH/imaginative.png",
         "technologies": "Html, css",
         "project_name": "Imaginative",
@@ -109,7 +118,7 @@
         "type": "Design"
     },
     {
-        "id": 12,
+        "id": 13,
         "img": "https://i.ibb.co/D4QKYrs/new-year-portfolio.png",
         "technologies": "Html, css",
         "project_name": "New Year Portfolio",
