@@ -116,7 +116,7 @@ const Navigation = () => {
                 data-aos="fade-right"
                 className="text-2xl text-gray-800 font-sans font-bold"
               >
-                AYAT
+                AB
               </Link>
             </div>
             <div data-aos="fade-down" className="navbar-center hidden lg:flex">

@@ -9,11 +9,11 @@
         "type": "Full Stack"
     }, {
         "id": 2,
-        "img": "https://i.ibb.co/ggtxXw8/summer-camp-school-988b3-web-app.png",
+        "img": "https://i.ibb.co.com/hRBFcBM4/localhost-5173.png",
         "technologies": "Vite(React), Vercel, Framer-motion, Swiper, Sweetalert, React hook form, Firebase, ExpressJS, MongoDB, NodeJS, react, simple, typewriter",
         "project_name": "wedding Wonder",
         "project_description": "A full stack based Matrimony website",
-        "github_link": "https://github.com/ayatbd/summer-camp-client",
+        "github_link": "https://github.com/ayatbd/matrimony-web-server",
         "live_link": "https://global-tongues.web.app/",
         "type": "Full Stack"
     },

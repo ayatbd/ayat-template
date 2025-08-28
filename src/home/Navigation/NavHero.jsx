@@ -35,12 +35,12 @@ const NavHero = () => {
               </h1>
               <Typewriter
                 options={{
-                  strings: ["MERN Stack developer", "Specialized in React.js"],
+                  strings: ["Front-End Developer", "Specialized in React.JS"],
                   autoStart: true,
                   loop: true,
                 }}
               />
-              <p className="md:text-xl text-center text-black">
+              <p className="md:text-xl text-left text-black">
                 Self-taught programmer with proficiency in MERN stack, solid
                 understanding of JavaScript, HTML and CSS. Committed to
                 continuous learning and staying updated with industry trends.
